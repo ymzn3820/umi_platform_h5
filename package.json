@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2"
+  },
+  "dependencies": {
+    "text-encoding-shim": "^1.0.5"
+  }
+}

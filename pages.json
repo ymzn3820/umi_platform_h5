@@ -1,0 +1,1702 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "首页",
+				// "navigationBarBackgroundColor": "#E5EDF9",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/index/chat_history",
+			"style": {
+				// "navigationBarTitleText": "历史记录",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				// "navigationBarTitleText": "登录",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+			}
+
+		},
+
+		{
+			"path": "pages/ability/ability",
+			"style": {
+				// "navigationBarTitleText": "无忧秘书AI",
+				// "navigationBarBackgroundColor": "#E5EDF9",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+
+				// "background-color":"#fff"
+			}
+		},
+		{
+			"path": "pages/apply/apply",
+			"style": {
+				// "navigationBarTitleText": "应用",
+				// "navigationBarBackgroundColor": "#1296db",
+				// "navigationBarTextStyle": "white"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/apply/apply_search",
+			"style": {
+				// "navigationBarTitleText": "搜索",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				// "navigationBarTitleText": "我的",
+				// "navigationBarBackgroundColor": "#1296db",
+				// "navigationBarTextStyle": "white"
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/user/vip/vip",
+			"style": {
+				// "navigationBarTitleText": "开通会员",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/user/cooperate/cooperate",
+			"style": {
+				// "navigationBarTitleText": "商务合作",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/user/history/history",
+			"style": {
+				// "navigationBarTitleText": "历史对话",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/count/count",
+			"style": {
+				// "navigationBarTitleText": "剩余次数",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/order/order",
+			"style": {
+				// "navigationBarTitleText": "订单记录",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/order/order_detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+
+		{
+			"path": "pages/user/set/set",
+			"style": {
+				// "navigationBarTitleText": "设置",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		}
+
+		, {
+			"path": "pages/painting/painting",
+			"style": {
+				// "navigationBarTitleText": "AI绘画",
+				// "navigationBarBackgroundColor": "#E5EDF9",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/painting/painting_his",
+			"style": {
+				// "navigationBarTitleText" : "历史对话",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/vip/pay_success",
+			"style": {
+				// "navigationBarTitleText": "支付成功",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/agree/agree",
+			"style": {
+				// "navigationBarTitleText": "",
+				// "enablePullDownRefresh": false
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/user/info/info",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+
+		},
+		{
+			"path": "pages/notice/notice",
+			"style": {
+				// "navigationBarTitleText": "公告",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/notice/notice_detail",
+			"style": {
+				// "navigationBarTitleText": "公告详情",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/apply/apply_ask",
+			"style": {
+				// "navigationBarTitleText": "应用助理",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/user/history/main_history",
+			"style": {
+				// "navigationBarTitleText" : "历史会话",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "childPage",
+			"pages": [{
+					"path": "chat/chat",
+					"style": {
+						// "navigationBarTitleText": "对话",
+						// "navigationBarBackgroundColor": "#333",
+						// "navigationBarTextStyle": "white"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "draw/draw",
+					"style": {
+						// "navigationBarTitleText": "对话",
+						// "navigationBarBackgroundColor": "#333",
+						// "navigationBarTextStyle": "white"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "chat/camera",
+					"style": {
+						/* // "navigationBarTitleText": "AI识图",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black" */
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "voice/voice",
+					"style": {
+						// "navigationBarTitleText": "实时录音",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "voice/voice_detail",
+					"style": {
+						// "navigationBarTitleText": "录音详情",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "voice/voice_edit",
+					"style": {
+						// "navigationBarTitleText": "音频编辑",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "voice/voice_index",
+					"style": {
+						// "navigationBarTitleText": "音视频转写",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "voice/video_result",
+					"style": {
+						// "navigationBarTitleText": "音视频转写结果",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "doppler/doppler",
+					"style": {
+						// "navigationBarTitleText": "彩超宝宝",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "doppler/doppler_history",
+					"style": {
+						// "navigationBarTitleText": "历史记录",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+
+				{
+					"path": "discern/discern",
+					"style": {
+						"navigationBarTitleText": "看图说话",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "open/open",
+					"style": {
+						"navigationBarTitleText": "最近打开",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "mentor/mentor_list",
+					"style": {
+						// "navigationBarTitleText": "最近打开",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "mentor/manage_list",
+					"style": {
+						// "navigationBarTitleText": "最近打开",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "mentor/add_mentor",
+					"style": {
+						"navigationBarTitleText": "创建一个我",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "mentor/mentor_chat",
+					"style": {
+						// "navigationBarTitleText": "创建一个我",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "mentor/history_mentor",
+					"style": {
+						// "navigationBarTitleText": "创建一个我",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "mentor/add_list",
+					"style": {
+						"navigationBarTitleText": "创建我的导师",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "vision/vision",
+					"style": {
+						// "navigationBarTitleText": "AI视觉馆",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black",
+						// "enablePullDownRefresh": false
+						"navigationStyle": "custom"
+					}
+				},
+
+				{
+					"path": "vision/merge",
+					"style": {
+						"navigationBarTitleText" : "人脸融合",
+						"enablePullDownRefresh" : false
+						// "navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "vision/myEge",
+					"style": {
+						// "navigationBarTitleText" : "人像年龄变化",
+						// "enablePullDownRefresh" : false
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "vision/beauty",
+					"style": {
+						// "navigationBarTitleText" : "智能变美",
+						// "enablePullDownRefresh" : false
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "vision/caricature",
+					"style": {
+						// "navigationBarTitleText" : "人像漫画",
+						// "enablePullDownRefresh" : false
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "vision/matting",
+					"style": {
+						// "navigationBarTitleText" : "人像抠图",
+						// "enablePullDownRefresh" : false
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "vision/textRecognize",
+					"style": {
+						// "navigationBarTitleText" : "通用文字识别",
+						// "enablePullDownRefresh" : false
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "vision/history_text",
+					"style": {
+						// "navigationBarTitleText": "AI视觉馆",
+						// "enablePullDownRefresh": false
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "laboratory/laboratory",
+					"style": {
+						// "navigationBarTitleText": "AI实验室",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "laboratory/labDraw",
+					"style": {
+						// "navigationBarTitleText": "AI实验室",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "laboratory/lab_history",
+					"style": {
+						"navigationBarTitleText": "历史记录",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "distribution/distribution",
+					"style": {
+						"navigationBarTitleText": "我的分销",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+
+				{
+					"path": "distribution/cash",
+					"style": {
+						// "navigationBarTitleText": "提现申请",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "distribution/bank",
+					"style": {
+						"navigationBarTitleText": "添加银行卡",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "distribution/grade",
+					"style": {
+						"navigationBarTitleText": "升级分销会员",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "distribution/staff",
+					"style": {
+						"navigationBarTitleText": "我的成员",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "distribution/mission",
+					"style": {
+						"navigationBarTitleText": "分佣明细",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "distribution/withdrawal",
+					"style": {
+						"navigationBarTitleText": "提现记录",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "distribution/share",
+					"style": {
+						// "navigationBarTitleText": "分享邀请",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "news/information",
+					"style": {
+						// "navigationBarTitleText": "资讯",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black",
+						// "enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "news/information_content",
+					"style": {
+						// "navigationBarTitleText": "资讯",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black",
+						// "enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+
+				{
+					"path": "document/document_chat",
+					"style": {
+						"navigationBarTitleText": "文档对话",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+						// "navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "document/document_history",
+					"style": {
+						// "navigationBarTitleText": "文档对话历史",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "news/link",
+					"style": {
+						// "navigationBarTitleText": "关注公众号",
+						// "enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "facilitator/signin",
+					"style": {
+						"navigationBarTitleText": "注册服务商",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "facilitator/message",
+					"style": {
+						"navigationBarTitleText": "填写信息",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "facilitator/enter",
+					"style": {
+						"navigationBarTitleText": "提交验证码",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "facilitator/equity",
+					"style": {
+						"navigationBarTitleText": "查看权益",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "facilitator/service",
+					"style": {
+						"navigationBarTitleText": "服务商信息",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "facilitator/manage",
+					"style": {
+						"navigationBarTitleText": "团队成员管理",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "facilitator/deal",
+					"style": {
+						"navigationBarTitleText": "成交明细",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "facilitator/brokerage",
+					"style": {
+						"navigationBarTitleText": "提佣记录",
+						"enablePullDownRefresh": false
+					}
+				},
+
+				{
+					"path": "vision/oldphoto",
+					"style": {
+						// "navigationBarTitleText" : "老照片修复",
+						// "enablePullDownRefresh" : false
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "vision/imgemax",
+					"style": {
+						// "navigationBarTitleText" : "图像增强",
+						// "enablePullDownRefresh" : false
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "vision/games3d",
+					"style": {
+						// "navigationBarTitleText" : "3d游戏风",
+						// "enablePullDownRefresh" : false
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "vision/peoplevfx",
+					"style": {
+						// "navigationBarTitleText" : "人像特效",
+						// "enablePullDownRefresh" : false
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "vision/facemax",
+					"style": {
+						// "navigationBarTitleText" : "表情增强",
+						// "enablePullDownRefresh" : false
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "vision/hair",
+					"style": {
+						// "navigationBarTitleText" : "发型编辑",
+						// "enablePullDownRefresh" : false
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "answer/answer",
+					"style": {
+						// "navigationBarTitleText": "问题反馈",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "version/version",
+					"style": {
+						// "navigationBarTitleText": "版本信息",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black",
+						"navigationStyle": "custom"
+
+					}
+				},
+				{
+					"path": "role/role",
+					"style": {
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "role/add_role",
+					"style": {
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "role/talk",
+					"style": {
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "role/user_chat",
+					"style": {
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "vision/live_body",
+					"style": {
+						// "navigationBarTitleText" : "活体照片",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "vision/hair_division",
+					"style": {
+						// "navigationBarTitleText" : "头发分割",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "vision/stretch",
+					"style": {
+						// "navigationBarTitleText" : "拉伸修复",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "vision/pic_text",
+					"style": {
+						// "navigationBarTitleText" : "图片配文",
+						// "enablePullDownRefresh" : false
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "vision/resolution",
+					"style": {
+						// "navigationBarTitleText" : "图片超分辨率",
+						// "enablePullDownRefresh" : false
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "vision/rectify",
+					"style": {
+						// "navigationBarTitleText" : "图片方向矫正",
+						// "enablePullDownRefresh" : false
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "distribution/Exchange",
+					"style": {
+						// "navigationBarTitleText" : "兑换算力",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				
+				{
+					"path": "multi_model/multi_model",
+					"style": {
+						"navigationBarTitleText": "多模型对话",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "multi_model/multi_model_next",
+					"style": {
+						"navigationBarTitleText": "多模型对话",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "multi_model/editRole",
+					"style": {
+						"navigationBarTitleText": "编辑角色",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "multi_model/addRole",
+					"style": {
+						"navigationBarTitleText": "添加角色",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "multi_model/history_model",
+					"style": {
+						// "navigationBarTitleText": "多模型对话历史记录",
+						// "enablePullDownRefresh": false
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "multi_model/model_dialogue",
+					"style": {
+						// "navigationBarTitleText": "多模型对话",
+						// "enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "multi_model/history_detail",
+					"style": {
+						"navigationBarTitleText": "详情"
+					}
+				}
+
+			]
+		},
+		{
+			"root": "childCont",
+			"pages": [
+				{
+					"path" : "repository/agent",
+					"style" : 
+					{
+						// "navigationBarTitleText" : "AI智能体",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "repository/repository",
+					"style" : 
+					{
+						// "navigationBarTitleText" : "AI知识库",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "repository/add_agent",
+					"style" : 
+					{
+						// "navigationBarTitleText" : "创建AI智能体",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "repository/document",
+					"style" : 
+					{
+						// "navigationBarTitleText" : "文档库",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "repository/website",
+					"style" : 
+					{
+						// "navigationBarTitleText" : "网址库",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "repository/photo",
+					"style" : 
+					{
+						// "navigationBarTitleText" : "图片库",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "repository/editPhoto",
+					"style" : 
+					{
+						// "navigationBarTitleText" : "编辑图片",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "repository/group",
+					"style" : 
+					{
+						// "navigationBarTitleText" : "分组管理",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},{
+					"path": "figure/figure",
+					"style": {
+						// "navigationBarTitleText": "数字人定制",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "figure/figure_video",
+					"style": {
+						// "navigationBarTitleText": "定制数字人形象",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "figure/figure_file",
+					"style": {
+						"navigationBarTitleText": "定制信息审核",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+						// "navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "figure/figure_voice",
+					"style": {
+						// "navigationBarTitleText": "定制数字人形象",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "figure/figure_oral",
+					"style": {
+						// "navigationBarTitleText": "定制数字人形象",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "figure/my_video",
+					"style": {
+						// "navigationBarTitleText": "我的视频",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "figure/pay_success",
+					"style": {
+						// "navigationBarTitleText": "我的视频",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "figure/pay_video",
+					"style": {
+						// "navigationBarTitleText": "我的视频",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "figure/play",
+					"style": {
+						// "navigationBarTitleText": "我的视频",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "figure/figure_product",
+					"style": {
+						// "navigationBarTitleText": "定制列表",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "figure/my_voice",
+					"style": {
+						"navigationBarTitleText": "定制列表",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "figure/video_detail",
+					"style": {
+						"navigationBarTitleText": "定制详情",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "figure/voice_list",
+					"style": {
+						// "navigationBarTitleText": "素材预览",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "figure/pay_voice",
+					"style": {
+						// "navigationBarTitleText": "素材预览",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "figure/compose_voice",
+					"style": {
+						// "navigationBarTitleText": "素材预览",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+				{
+					"path": "figure/compose_list",
+					"style": {
+						// "navigationBarTitleText": "素材预览",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+
+				{
+					"path": "figure/figure_order",
+					"style": {
+						// "navigationBarTitleText": "素材预览",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+
+				{
+					"path": "figure/figure_order_detail",
+					"style": {
+						// "navigationBarTitleText": "素材预览",
+						// "navigationBarBackgroundColor": "#fff",
+						// "navigationBarTextStyle": "black"
+						"navigationStyle": "custom"
+					}
+
+				},
+
+				{
+					"path": "figure/clone_require",
+					"style": {
+						"navigationBarTitleText": "形象克隆要求",
+						"enablePullDownRefresh": false
+					}
+				},
+
+				{
+					"path": "company/add_info",
+					"style": {
+						"navigationBarTitleText": "企业AI定制",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "company/company_list",
+					"style": {
+						"navigationBarTitleText": "个人/团队列表",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "company/know_list",
+					"style": {
+						"navigationBarTitleText": "企业AI定制",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "company/staff_form",
+					"style": {
+						"navigationBarTitleText": "新增企业AI数字员工",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "company/user_chat",
+					"style": {
+						"navigationBarTitleText": "AI企业员工对话",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "company/history_chat",
+					"style": {
+						"navigationBarTitleText": "历史记录",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+
+				},
+				{
+					"path": "more_function/more_ability",
+					"style": {
+						// "navigationBarTitleText" : "优选能力",
+						// "enablePullDownRefresh" : false
+						"navigationStyle": "custom"
+
+					}
+				},
+				{
+					"path": "more_function/more_chat",
+					"style": {
+						// "navigationBarTitleText" : "对话中心",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "more_function/more_draw",
+					"style": {
+						// "navigationBarTitleText" : "绘画中心",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "more_function/more_chest",
+					"style": {
+						// "navigationBarTitleText" : "AI百宝箱",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "more_function/more_experiment",
+					"style": {
+						// "navigationBarTitleText" : "实验能力",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "more_function/more_tool",
+					"style": {
+						// "navigationBarTitleText" : "智能工具",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "server/server",
+					"style": {
+						// "navigationBarTitleText" : "服务器购买租赁",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/denoise",
+					"style": {
+						// "navigationBarTitleText" : "视频降噪",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/enhance",
+					"style": {
+						// "navigationBarTitleText" : "视频增强",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/cartoon",
+					"style": {
+						// "navigationBarTitleText" : "视频人像卡通化",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/retouch",
+					"style": {
+						// "navigationBarTitleText" : "照图修图",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/subtitles",
+					"style": {
+						// "navigationBarTitleText" : "视频字幕擦除",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/cover",
+					"style": {
+						// "navigationBarTitleText" : "视频封面生成",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/symbol",
+					"style": {
+						// "navigationBarTitleText" : "视频标志擦除",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/universal",
+					"style": {
+						// "navigationBarTitleText" : "通用视频生成",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/tailor",
+					"style": {
+						// "navigationBarTitleText" : "图片裁剪",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/cover",
+					"style": {
+						// "navigationBarTitleText" : "视频封面生成",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/faceRepair",
+					"style": {
+						// "navigationBarTitleText": "人脸修复",
+						// "enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/faceSketch",
+					"style": {
+						// "navigationBarTitleText": "人脸素描",
+						// "enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/thinFace",
+					"style": {
+						// "navigationBarTitleText": "智能瘦脸",
+						// "enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/beautyMakeup",
+					"style": {
+						// "navigationBarTitleText": "智能美妆",
+						// "enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/faceFilter",
+					"style": {
+						// "navigationBarTitleText": "人脸滤镜",
+						// "enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chest/retouch",
+					"style": {
+						// "navigationBarTitleText": "照图修图",
+						// "enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "chest/dermatosis",
+					"style": {
+						// "navigationBarTitleText": "皮肤病检测",
+						// "enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "chest/tailor",
+					"style": {
+						// "navigationBarTitleText": "图片裁剪",
+						// "enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "chest/faceBlur",
+					"style" : 
+					{
+						"navigationBarTitleText" : "人脸模糊",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/picSubtitles",
+					"style" : 
+					{
+						"navigationBarTitleText" : "图片字幕擦除",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/picStyle",
+					"style" : 
+					{
+						"navigationBarTitleText" : "图像风格转化",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/fillColor",
+					"style" : 
+					{
+						"navigationBarTitleText" : "黑白图像填色",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/sharpness",
+					"style" : 
+					{
+						"navigationBarTitleText" : "清晰度增强",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/picSymbol",
+					"style" : 
+					{
+						"navigationBarTitleText" : "图像标志擦除",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/star",
+					"style" : 
+					{
+						"navigationBarTitleText" : "明星识别",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/productMatting",
+					"style" : 
+					{
+						"navigationBarTitleText" : "商品抠图",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/partition",
+					"style" : 
+					{
+						"navigationBarTitleText" : "人体轮廓分割",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/picSearch",
+					"style" : 
+					{
+						"navigationBarTitleText" : "图像搜索",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/videoMark",
+					"style" : 
+					{
+						"navigationBarTitleText" : "视频画质评分",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/faceRecognize",
+					"style" : 
+					{
+						"navigationBarTitleText" : "面部信息识别",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/dermatosis",
+					"style" : 
+					{
+						"navigationBarTitleText" : "皮肤病检测",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/objectRecognition",
+					"style" : 
+					{
+						"navigationBarTitleText" : "物体识别",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/carRecognition",
+					"style" : 
+					{
+						"navigationBarTitleText" : "车型识别",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/picBodyRecognition",
+					"style" : 
+					{
+						"navigationBarTitleText" : "图像主体识别",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "chest/history_chest",
+					"style" : 
+					{
+						"navigationBarTitleText" : "历史记录",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "realName/backMini",
+					"style" : 
+					{
+						// "navigationBarTitleText" : "返回小程序",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path" : "more_function/more_pic",
+					"style" : 
+					{
+						"navigationBarTitleText" : "图片处理",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "more_function/more_video",
+					"style" : 
+					{
+						"navigationBarTitleText" : "视频处理",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "more_function/assemble",
+					"style" : 
+					{
+						"navigationBarTitleText" : "AI工具集",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "clone/voice_clone",
+					"style" : 
+					{
+						"navigationBarTitleText" : "声音克隆",
+						"enablePullDownRefresh" : false,
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				
+				{
+					"path" : "clone/copy_voice",
+					"style" : 
+					{
+						"navigationBarTitleText" : "声音合成",
+						"enablePullDownRefresh" : false,
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				
+				{
+					"path" : "clone/my_voice",
+					"style" : 
+					{
+						"navigationBarTitleText" : "我的声音",
+						"enablePullDownRefresh" : false,
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				
+				{
+					"path" : "clone/voice_order",
+					"style" : 
+					{
+						"navigationBarTitleText" : "订单记录",
+						"enablePullDownRefresh" : false,
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				
+				{
+					"path" : "clone/clone_history",
+					"style" : 
+					{
+						"navigationBarTitleText" : "历史记录",
+						"enablePullDownRefresh" : false,
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				
+				{
+					"path" : "clone/clone_qs",
+					"style" : 
+					{
+						"navigationBarTitleText" : "录音规范",
+						"enablePullDownRefresh" : false,
+						"navigationBarBackgroundColor": "#fff",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path" : "clone/pay_clone",
+					"style" : 
+					{
+						"navigationBarTitleText" : "声音克隆",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "repository/agent_his",
+					"style" : 
+					{
+						// "navigationBarTitleText" : "历史记录",
+						// "enablePullDownRefresh" : false,
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		}
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "无忧秘书AI",
+		"navigationBarBackgroundColor": "#F6F8Fb",
+		"backgroundColor": "#F6F8Fb"
+	},
+	"tabBar": {
+		"color": "#131D34",
+		"selectedColor": "#1F64FF",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "对话",
+				"iconPath": "static/nav/duihua1.png",
+				"selectedIconPath": "static/nav/duihua.png"
+			},
+			{
+				"pagePath": "pages/painting/painting",
+				"text": "绘画",
+				"iconPath": "static/nav/huihua1.png",
+				"selectedIconPath": "static/nav/huihua.png"
+			},
+			{
+				"pagePath": "pages/apply/apply",
+				"text": "助理",
+				"iconPath": "static/nav/yingyong1.png",
+				"selectedIconPath": "static/nav/yingyong.png"
+			},
+			{
+				"pagePath": "pages/ability/ability",
+				"text": "能力",
+				"iconPath": "static/nav/shouye1.png",
+				"selectedIconPath": "static/nav/shouye.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/nav/user1.png",
+				"selectedIconPath": "static/nav/user.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
